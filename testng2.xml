@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="banking loan">
+  <test name=" Smoke testing">
+	  <groups>
+		  <run>
+			  <include name="smoke">
+				  
+			  </include>
+		  </run>
+	  </groups>
+	  
+    <classes>
+      <class name="testNg_practical.Day1"/>
+      <class name="testNg_practical.Day2"/>
+      <class name="testNg_practical.Day3"/>
+      <class name="testNg_practical.Day4"/>
+      
+    </classes>
+   
+    
+    
+    
+  </test> <!-- Test -->
+  
+   
+   
+</suite> <!-- Suite -->
